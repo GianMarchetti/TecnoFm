@@ -5,7 +5,7 @@
 .h2 {
     font-size: 2em;
     font-weight: bold;
-    color: #4CAF50;
+    color: #800236;
     font-family: cursive;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #800236;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -46,7 +46,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 2%; 
+    border-radius: 5%; 
 }
 
 @media screen and (max-width: 850px) {

@@ -10,6 +10,7 @@ export default function AboutPage () {
         <>
           <div className={styles.main} >
             
+            <h2 className={styles.h2} >conocé sobre nuestro equipo</h2>
 
             <div className={styles.div}>
                 <p className={styles.p} data-desktoptext="Somos un local de reparación de celulares y computadoras ubicado en Santa Fe Capital. Desde el 2019, nos hemos dedicado a brindar soluciones tecnológicas de calidad a nuestros clientes, con un equipo de profesionales altamente capacitados y comprometidos con su trabajo." data-phonetext="Somos un local de reparación de celulares y computadoras ubicado en Santa Fe Capital.En TECNO_FM nos enfocamos en ofrecer un servicio personalizado y eficiente."></p>

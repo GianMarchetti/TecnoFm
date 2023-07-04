@@ -26,13 +26,6 @@
     font-weight: bolder;
 }
 
-.logo {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1%;
-}
-
 .logoImg {
     width: 80px;
     height: 80px;

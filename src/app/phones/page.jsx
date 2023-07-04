@@ -12,7 +12,7 @@ export default async function PhonesPage ({ params }){
     return (
         <div className={styles.main}>
             <h2 className={styles.h2}>Celulares</h2>
-            <h3 className={styles.h3}>Reparamos todo tipos de Celulares Android</h3>
+            <h3 className={styles.h3}>Reparamos todo tipos de Celulares Android. Acá algunos ejemplos de anteriores reparaciones</h3>
             <div className={styles.gallery}>
                 <div className={styles.reparacion} >
                     <Image src={banner1} className={styles.banner}/>

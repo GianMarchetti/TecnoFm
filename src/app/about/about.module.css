@@ -6,6 +6,13 @@
     flex-direction: column;
 }
 
+.h2{  
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #800236;
+    text-transform: uppercase;
+}
+
 .div{
     display: flex;
     align-items: center;

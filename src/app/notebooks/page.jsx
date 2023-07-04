@@ -11,7 +11,7 @@ export default function PhonesPage (){
     return (
         <div className={styles.main} >
             <h2 className={styles.h2} >Notebooks</h2>
-            <h3 className={styles.h3} >Reparamos, Formateamos, limpiamos e instalamos programas en todo tipo de PC, notebooks o netbooks</h3>
+            <h3 className={styles.h3} >Reparamos, Formateamos, limpiamos e instalamos programas en todo tipo de PC, notebooks o netbooks. Acá algunos ejemplos de anteriores reparaciones</h3>
             <div className={styles.gallery} >
                 <div className={styles.reparacion} >
                     <Image src={banner1} className={styles.banner}/>
