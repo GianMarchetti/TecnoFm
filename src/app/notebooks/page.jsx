@@ -14,27 +14,27 @@ export default function PhonesPage (){
             <h3 className={styles.h3} >Reparamos, Formateamos, limpiamos e instalamos programas en todo tipo de PC, notebooks o netbooks. Acá algunos ejemplos de anteriores reparaciones</h3>
             <div className={styles.gallery} >
                 <div className={styles.reparacion} >
-                    <Image src={banner1} className={styles.banner}/>
+                    <Image src={banner1} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
                 <div className={styles.reparacion} >
-                    <Image src={banner2} className={styles.banner}/>
+                    <Image src={banner2} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
                 <div className={styles.reparacion} >
-                    <Image src={banner3} className={styles.banner}/>
+                    <Image src={banner3} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
                 <div className={styles.reparacion} >
-                    <Image src={banner4} className={styles.banner}/>
+                    <Image src={banner4} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
                 <div className={styles.reparacion} >
-                    <Image src={banner5} className={styles.banner}/>
+                    <Image src={banner5} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
                 <div className={styles.reparacion} >
-                    <Image src={banner6} className={styles.banner}/>
+                    <Image src={banner6} className={styles.banner} alt='imagen de Computadora en reparacion'/>
                     <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
                 </div>
             </div>

@@ -2,9 +2,9 @@ import Link from 'next/link'
 import styles from './Navigation.module.css'
 import Image from 'next/image'
 import logoFm from '../assets/imgs/logo.jpeg'
-import { Tilt_Prism } from 'next/font/google'
+import { Orbitron } from 'next/font/google'
 
-const Tilt = Tilt_Prism({
+const Orbi = Orbitron({
   weight: '400',
   subsets: ['latin']
 })
@@ -26,7 +26,7 @@ export function Navigation () {
       <header className={styles.header}>
         <div className={styles.logo}>
           <a href='/' >
-            <Image alt='logo TecnoFm' src={logoFm} className={styles.logoImg} />
+            <Image alt='Logo de TecnoFm' src={logoFm} className={styles.logoImg} />
           </a>
         </div>
         <nav>
@@ -41,7 +41,7 @@ export function Navigation () {
           </ul>
         </nav>
       </header>
-      <marquee className={styles.marquee}><h1 className={Tilt.className}>¡Bienvenidos a TECNO_FM!</h1></marquee>
+      <marquee className={styles.marquee}><h1 className={Orbi.className}>¡Bienvenidos a TECNO_FM!</h1></marquee>
     </>
   )
 }

@@ -9,7 +9,7 @@ export function Footer () {
         <div className={styles.redes}>
           <p>Encontranos en
             <a href='https://www.instagram.com/tecno_fm/'> 
-              <Image src={Instagram} alt='Instagram' width={20} height={20} className={styles.ig} />
+              <Image src={Instagram} alt='icono de Instagram' width={20} height={20} className={styles.ig} />
             </a>
           </p>
         </div>

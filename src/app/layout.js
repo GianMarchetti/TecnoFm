@@ -13,7 +13,8 @@ const robo = Roboto_Condensed({
 
 export const metadata = {
   title: 'TecnoFm',
-  description: 'Reparacion de Celulares, de tablets, de Notebooks, Desbloqueo, Limpieza, Instalacion de programas y mucho mas',
+  description: 'Somos un emprendimiento de reparación de celulares, de tablets, de notebooks, netbooks y computadoras de escritorio. Tambien hacemos desbloqueo, limpieza, instalación de programas y mucho mas',
+  keywords: 'Reparación, celulares, tablets, notebooks, netbooks, PC, limpieza, desbloqueo, formateo, instalación',
 }
 
 export default function RootLayout ({ children }) {
