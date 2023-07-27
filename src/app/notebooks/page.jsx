@@ -15,27 +15,27 @@ export default function PhonesPage (){
             <div className={styles.gallery} >
                 <div className={styles.reparacion} >
                     <Image src={banner1} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Proceso de Desbloqueo de Netbook (Flasheo de BIOS)</p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner2} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Actualizacion de netbook con un disco SSD </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner3} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Desbloqueo Netbook Conectar Igualdad G5</p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner4} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Reparación de Netbook, cambio de memoria ram por humedad </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner5} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Formateo e instalación de Windows en Netbook </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner6} className={styles.banner} alt='imagen de Computadora en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Limpieza y Cambio de pasta térmica en procesador</p>
                 </div>
             </div>
             <a href='../form' >

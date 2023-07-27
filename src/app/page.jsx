@@ -73,22 +73,22 @@ export default function HomePage () {
 
           </div>
 
-          <a href='./ratingForm' >
             <div className={styles.butVal} >
                 <p>Agradeceriamos que nos dejes tu Valoracion sobre la pagina y el servicio Otorgado!</p>
+              <a href='./ratingForm' >
                 <button className={styles.btn} type="button">
-                <strong className={styles.strong} >Valorar</strong>
-                <div className={styles.containerStars}>
-                  <div className={styles.stars}></div>
-                </div>
+                  <strong className={styles.strong} >Valorar</strong>
+                  <div className={styles.containerStars}>
+                    <div className={styles.stars}></div>
+                  </div>
 
-                <div className={styles.glow}>
-                  <div className={styles.circle}></div>
-                  <div className={styles.circle}></div>
-                </div>
+                  <div className={styles.glow}>
+                    <div className={styles.circle}></div>
+                    <div className={styles.circle}></div>
+                  </div>
                 </button>
+              </a>
             </div>
-          </a>
 
         </div>
 

@@ -16,27 +16,27 @@ export default async function PhonesPage ({ params }){
             <div className={styles.gallery}>
                 <div className={styles.reparacion} >
                     <Image src={banner1} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Cambio de módulo Motorola G100 </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner2} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Cambio de Flex MAIN y Placa de Carga Motorola G9 power </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner3} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Cambio de pin de carga Samsung J2 </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner4} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Reparación por humedad de Samsung  J7 </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner5} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Reparación de Flex de pantalla J7 2015 </p>
                 </div>
                 <div className={styles.reparacion} >
                     <Image src={banner6} className={styles.banner} alt='imagen de celular en reparacion'/>
-                    <p className={styles.banText}>Reparación de g27: cambio de chip de carga, bateria y pantalla. Reparación de g27: cambio de chip de carga, bateria y pantalla. </p>
+                    <p className={styles.banText}>Cambio modulo J7 2015</p>
                 </div>
             </div>
             <a href='../form'>
