@@ -1,5 +1,5 @@
 .divForm {
-    height: 60em;
+    height: 80em;
     margin: 1%;
     margin-bottom: 5%;
     padding: 2%;
@@ -41,9 +41,10 @@
 .button {
     border: 2px solid darkgray;
     border-radius: 4px;
-    padding: 1%;
+    padding: 2%;
     margin: 1%;
     color: #000;
+    font-weight: bold;
     background-color: blanchedalmond;
 }
 
@@ -67,8 +68,8 @@
 @media screen and (max-width: 850px) {
     .divForm{
         height: 60em;
-        background: rgb(240,240,240);
-        background: radial-gradient(circle, rgba(240,240,240,1) 47%, rgba(0,0,0,1) 66%);
+        /* background: rgb(240,240,240);
+        background: radial-gradient(circle, rgba(240,240,240,1) 47%, rgba(0,0,0,1) 66%); */
         -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	      animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }

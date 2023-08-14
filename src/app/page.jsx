@@ -4,7 +4,8 @@ import Image from 'next/image'
 import bannerCel from '../app/assets/imgs/bannerCel.jpeg'
 import bannerNote from '../app/assets/imgs/repuestos/limpiezaProcesador.jpeg'
 import bannerAbout from '../app/assets/imgs/team.jpg'
-import bannerFlyer from '../app/assets/imgs/flyer1.jpeg'
+import bannerFlyer from '../app/assets/imgs/flyer2.jpeg'
+import arrow from '../app/assets/icons/arrow.png'
 import profile from '../app/assets/icons/perfil.jpg'
 
 export default function HomePage () {
@@ -14,11 +15,12 @@ export default function HomePage () {
         
         <div className={styles.presu} >
           <h2 className={styles.sub}>¿Tenes que reparar un dispositivo?</h2>
-          <p className={styles.title}>En TecnoFm entendemos lo importante que son tus dispositivos electrónicos en tu vida diaria, y estamos aquí para ayudarte a resolver cualquier problema que puedas tener.</p>
+          <p className={styles.title}>En TecnoFm entendemos lo importante que son tus dispositivos electrónicos en tu vida diaria, y estamos aquí para ayudarte a resolver cualquier problema que puedas tener.</p>        
           <p>Tu consulta no molesta!</p>
           <a href='../form'>
                 <button className={styles.button}>Pedir Presupuesto</button>
-            </a>
+          </a>
+          {/* <Image src={arrow} className={styles.arrow} alt='arrow'/>    */}
         </div>
 
         <Image src={bannerFlyer} className={styles.bannerFlyer} alt='Flyer de reparaciones'/>
@@ -52,7 +54,7 @@ export default function HomePage () {
 
             <div className={styles.valInd} >
               <Image src={profile} width={50} height={50} className={styles.valImg} alt='imagen de perfil predeterminada'/>
-              <p className={styles.valP}>Gian Marchetti</p>
+              <p className={styles.valP}>Juan Ramirez</p>
               <div className={styles.valText}>El equipo de reparación hizo un trabajo fantástico con mi computadora. La repararon en un tiempo récord y ahora funciona mejor que nunca. ¡Gracias por su excelente servicio!</div>
               <div>⭐⭐⭐⭐⭐</div>
             </div>
@@ -91,7 +93,7 @@ export default function HomePage () {
             </div>
 
         </div>
-
+        
       </div>
     </>
   )
