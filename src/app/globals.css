@@ -22,40 +22,11 @@
 }
 
 /* color ramdom #F2E6B3 */
-
-body {
-  /* padding: 100px;
-  max-width: 800pz; */
-
-  height: max-content;
-
-  /* Color Letras */
-  color: rgb(var(--foreground-rgb));
-
-  /* Color fondo Def */
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-
-    /* Color Fondo */
-    background: rgb(0,0,0);
-    background: linear-gradient(120deg, rgba(0,0,0,1) 44%, rgba(62,54,54,1) 70%);
-
+html{
+  max-height: 200vh;
 }
 
-@media screen and (max-width: 850px) {
-  body{
-    /* background: rgb(0,0,0);
-    background: linear-gradient(100deg, rgba(0,0,0,1) 44%, rgba(62,54,54,1) 70%); */
-    
-    background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-  }
+body {
+  color: white;
+  background: black;
 }

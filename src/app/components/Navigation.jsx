@@ -16,8 +16,8 @@ const links = [{
   label: 'Nuestro Equipo',
   route: '/about'
 }, {
-  label: 'Reparación',
-  route: '/form'
+  label: 'Contacto',
+  route: '/contact'
 }]
 
 export function Navigation () {
@@ -26,7 +26,7 @@ export function Navigation () {
       <header className={styles.header}>
         <div className={styles.logo}>
           <a href='/' >
-            <Image alt='Logo de TecnoFm' src={logoFm} className={styles.logoImg} />
+            <Image alt='Logo de TecnoFm' src='https://i.ibb.co/Wx7XVFg/logo2.jpg' width='200' height='200' className={styles.logoImg} />
           </a>
         </div>
         <nav>

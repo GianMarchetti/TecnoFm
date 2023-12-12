@@ -1,51 +1,56 @@
 .divForm {
-    height: 80em;
-    margin: 1%;
-    margin-bottom: 5%;
-    padding: 2%;
+    height: fit-content;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: start;
+
 }
 
 .h2{
-  font-size: 1.5em;
+  text-align: start;
+  font-size: 32px;
   font-weight: bolder;
   color: #800236;
 }
 
-.p {
-    text-align: center;
-    padding: 2%;
-}
-
 .form {
-    border: 1px solid gray;
-    border-radius: 4px;
-    margin: 2%;
-    margin-top: 5%;
-    color: #f0f0f0;
+    margin-bottom: 32px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
+    text-align: start;
+    padding: 16px;
 }
 
-.div {
+.col {
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2%;
+    justify-content: space-between;
+    padding: 16px;
+    width: 50%;
+}
+
+.col2 {
+  padding: 16px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
-    border: 2px solid darkgray;
-    border-radius: 4px;
-    padding: 2%;
-    margin: 1%;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: medium;
+    width: 100%;
+    height: 60px;
     color: #000;
     font-weight: bold;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 
 @-webkit-keyframes fade-in {
@@ -65,9 +70,23 @@
     }
 }
 
+.info {
+  padding: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.info p {
+  font-weight: 400;
+}
+
 @media screen and (max-width: 850px) {
     .divForm{
-        height: 60em;
+        height: fit-content;
         /* background: rgb(240,240,240);
         background: radial-gradient(circle, rgba(240,240,240,1) 47%, rgba(0,0,0,1) 66%); */
         -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

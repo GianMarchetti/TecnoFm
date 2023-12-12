@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        appDir: true
+      images: {
+        domains: [
+            'i.ibb.co',
+            'www.canva.com',
+            'youtube.com'
+          ]
     },
-    reactStrictMode: true,
 }
 
 module.exports = {

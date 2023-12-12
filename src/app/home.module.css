@@ -5,7 +5,33 @@
     width: 100%;
 }
 
-.sub{
+.bannerDivPresu{
+  background-color: #111111;
+  background-image: url(./assets/imgs/fondo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  /* margin-bottom: 16px; */
+  width: 100%;
+  height: 30em;
+}
+
+.presu {
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #111111;
+  height: fit-content;
+}
+
+
+.title{
     font-size: 1.5em;
     font-weight: bolder;
     color: #800236;
@@ -15,202 +41,142 @@
     letter-spacing: -.05rem;
 }
 
-.title{
+.subT{
     font-size: 1em;
-    text-align: center;
-    padding: 2%;
+    padding-bottom: 8px;
     width: 20em;
 }
 
-.arrow{
-  height:5em;
-  width: 5em;
-  position: absolute;
-  top: 300px;
-  right: 350px;
-  -webkit-animation: bounce-in-bck 1.1s both;
-	animation: bounce-in-bck 1.1s both;
-  
+.bannerFlyer{
+  height: 300px;
+  width: 350px;
+  z-index: 0;
 }
 
-@-webkit-keyframes bounce-in-bck {
-  0% {
-    -webkit-transform: scale(7);
-            transform: scale(7);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: scale(1.24);
-            transform: scale(1.24);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  89% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-@keyframes bounce-in-bck {
-  0% {
-    -webkit-transform: scale(7);
-            transform: scale(7);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: scale(1.24);
-            transform: scale(1.24);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  89% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
 
-.presu {
-    box-shadow: 0px 1px 4px 1px rgba(62,54,54,1);
-    border-radius: 2%;
-    text-align: center;
-    background-color: #000;
-}
-
-.button {
+.btnPresu {
     background-color: #800236;
-    border: none;
     color: white;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     cursor: pointer;
-    border-radius: 2%; 
+    border-radius: 8px; 
 }
 
 .bannerDiv{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 25em;
-    width: 50em;
-    margin: 2%;
-    border: 1px solid #f0f0f0;
-    border-radius: 5px;
+    height: 30em;
+    width: 100%;
     color: #000;
 }
 
+.soluciones {
+  background-color: #111111;
+  color: white;
+  padding: 36px;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.soluciones h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cel {
+  -webkit-animation: flip-vertical-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: flip-vertical-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+@-webkit-keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+            transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+            transform: translateZ(160px) rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+            transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+            transform: translateZ(160px) rotateY(180deg);
+  }
+}
+
+.bannerDiv2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 30em;
+  width: 100%;
+  color: #000;
+}
+
+.divEquipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 30em;
+  height: 20em;
+}
 
 .banner{
-    height: 25em;
-    width: 50em;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
     opacity: 0.6;
-    color: #000;
 }
 
-.bannerFlyer{
-    height: 35em;
-    width: 20em;
-    margin: 2%;
-    border: 1px solid #f0f0f0;
-    border-radius: 40px;
+.bannerE{
+    height: 100%;
+    padding: 16px;
+    width: 100%;
+    border-radius: 32px;
+    opacity: 0.6;
 }
 
-/* .divF{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-} */
+.divEquipo h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: #EEEEEE;
+    padding: 48px;
+}
 
 .h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     position: absolute;
     color: #EEEEEE;
+    padding: 48px;
 }
 
 .valoraciones{
-    background-color:#800236 ;
-    padding: 1%;
-    margin-bottom: 2%;
+    background-color: #111111;
+    padding: 16px;
 }
 
 .valP{
     font-size: 1.5em;
     font-weight: bolder;
-    color: black;
+    color: #800236;
     text-align: center;
 }
 
@@ -229,18 +195,21 @@
 }
 
 .valInd{
-    padding: 1%;
+    padding: 16px;
+    margin: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px black;
 }
 
 .valText {
     text-align: center;
 }
 
-.butVal {
+.divVal {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -253,6 +222,8 @@
     align-items: center;
     width: 13rem;
     height: 3rem;
+    margin-top: 16px;
+    margin-bottom: 8px;
     background-size: 300% 300%;
     backdrop-filter: blur(1rem);
     border-radius: 5rem;
@@ -416,16 +387,19 @@
   }
 @media screen and (max-width: 850px) {
   .bannerDiv{
-    width: fit-content;
     height: 20em;
   }
-
-  .title{
-     width: 20em;
+  .presu{
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  .subT{
+     width: 100%;
   }   
 
   .h3{
     font-size: 1em;
+    padding: 8px;
   }
 
   .banner{
@@ -436,11 +410,11 @@
     top: 325px;
     right: 30px;
   }
-
-  .bannerFlyer{
-    height: 25em;
-    width: 12em;
-    border-radius: 25px;
+  .bannerDivPresu{
+    background-position: center;
+    background-size: 200%;
+    height: fit-content;
+    flex-direction: column;
   }
 
   .valDiv {
