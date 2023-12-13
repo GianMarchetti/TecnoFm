@@ -53,6 +53,15 @@
     background-color: white;
 }
 
+.divInfo{
+  background-color: #111111;
+  width: 100%;
+  height: fit-content;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .info {
   padding: 8px;
 }
@@ -102,5 +111,8 @@
     .info iframe {
       display: block;
       padding: 32px;
+    }
+    .divInfo{
+      flex-direction: column;
     }
 }

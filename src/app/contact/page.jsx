@@ -26,14 +26,14 @@ export default function Contact () {
                     src="https://www.youtube.com/embed/PUHEOe-WDNI?loop=1&autoplay=1&mute=1&controls=0"></iframe>
                 </div>
             </form>
-            <div className='bg-gray-800 w-full h-fit p-16 flex justify-between sm:flex-col'>
+            <div className={styles.divInfo}>
                 <div className={styles.info}>
                     <h3 className={styles.title}>WhatsApp:</h3>
                     <p>+54 9 342-5422001</p>
                 </div>
                 <div className={styles.info}>
                     <h3 className={styles.title}>Email:</h3>
-                    <p>fabriciomarchetti@gmail.com</p>
+                    <p>fabricio.marchetti@yahoo.com</p>
                 </div>
                 <div className={styles.info}>
                     <h3 className={styles.title}>Visitanos:</h3>
