@@ -29,32 +29,34 @@ export default function HomePage () {
           <p>Reparar tu dispositivo nunca fue más facíl</p>
           <h3>Tenemos soluciones para todos</h3>
           <p>Sea cual sea tu problema te podemos ayudar</p>
-
           <Link href='https://show.forms.app/gianmarchetti/untitled-form?draftId=a8a56511' className='mt-4 mb-8'>
             <button className={styles.btnPresu}>Reparar mi dispositivo</button>
           </Link>
           <div className='mt-8 flex flex-col justify-center items-center'>
             <Image src='https://i.ibb.co/BLj4p1L/cel.png' className={styles.cel} width='300' height='200' alt='celular'/>
-            {/* <Image src={bannerCel} width='200' height='200' alt='mano sosteniendo'/> */}
           </div>
         </div>
 
-        
-
-        <Link href='./about' className='h-full w-full'>
           <div className={styles.bannerDiv2} >
             <Image src='https://i.ibb.co/QYFVZfB/fondo-Equipo.png' width='800' height='800' className={styles.banner} alt='banner del equipo tecnoFm'/>
+            <div className={styles.divEM}>
+                  <Link href='./about'>
+                    <Image src='https://i.ibb.co/hRKLw8q/fondo-EMTop.png' width='800' height='800' className={styles.bannerEM} alt='banner del equipo tecnoFm'/>
+                    <Image src='https://i.ibb.co/B6qBCdJ/fondo-EMBot.png' width='800' height='800' className={styles.bannerEM} alt='banner del equipo tecnoFm'/>
+                  </Link>
+            </div>
             <div className={styles.divEquipo}>
-              <h3>Nuestro Equipo</h3>
-              <Image src='https://i.ibb.co/61CXxPM/team.jpg' width='800' height='800' className={styles.bannerE} alt='banner del equipo tecnoFm'/>
+              <Link href='./about'>
+                <h3>Conoce a Nuestro Equipo</h3>
+              </Link>
+              <Link href='./about' className={styles.linkE}>
+                <Image src='https://i.ibb.co/61CXxPM/team.jpg' width='800' height='800' className={styles.bannerE} alt='banner del equipo tecnoFm'/>
+              </Link>
             </div>
           </div>
-        </Link>
       
         <div className={styles.valoraciones} >
-
           <p className={styles.valP}>La opinión de nuestros clientes nos importa</p>
-
           <div className={styles.valDiv}>
 
             <div className={styles.valInd} >
