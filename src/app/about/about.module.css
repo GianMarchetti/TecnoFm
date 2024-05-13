@@ -108,7 +108,7 @@
         /* text-align: left; */
         width: 100%;
         padding: 8px;
-        height: 9em;
+        height: fit-content;
     }
     .div3 p{
         font-size: medium;
@@ -123,7 +123,7 @@
     .img{
         /* padding: 0px; */
         /* border-radius: 8%; */
-        height: 12em;
+        height: 14em;
         width: 100%;
     }
     .div3{
