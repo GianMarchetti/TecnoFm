@@ -2,12 +2,6 @@ import Link from 'next/link'
 import styles from './Navigation.module.css'
 import Image from 'next/image'
 import logoFm from '../assets/imgs/logo.jpeg'
-import { Orbitron } from 'next/font/google'
-
-const Orbi = Orbitron({
-  weight: '400',
-  subsets: ['latin']
-})
 
 const links = [{
   label: 'Inicio',
@@ -41,7 +35,6 @@ export function Navigation () {
           </ul>
         </nav>
       </header>
-      <marquee className={styles.marquee}><h1 className={Orbi.className}>¡Bienvenidos a TECNO_FM!</h1></marquee>
     </>
   )
 }

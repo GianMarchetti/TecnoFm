@@ -31,7 +31,7 @@ export function Footer () {
               </p>
             </div>
             <nav className='w-52 sm:w-full sm:p-2'>
-              <ul className='w-full flex justify-between items-baseline sm:justify-center'>
+              <ul className='w-full flex flex-col justify-between sm:justify-center'>
                 {links.map(({ label, route }) => (
                   <li key={route} className='sm:ml-2'>
                     <Link href={route}>

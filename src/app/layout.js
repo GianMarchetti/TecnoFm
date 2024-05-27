@@ -20,9 +20,6 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang="es">
-      <head>
-        <title>TecnoFm</title>
-      </head>
       <body className={robo.className}>
         <Navigation />
         {children}

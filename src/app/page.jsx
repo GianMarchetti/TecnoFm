@@ -2,12 +2,23 @@
 import styles from './home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import RepairServices from './repairServices/page'
 
 export default function HomePage () {
   return (
     <>
       <div className={styles.main} >
+      
+      <h1 className='mt-24 text-5xl font-black md:text-3xl md:mt-32'>¡Bienvenidos a TECNO_FM!</h1>
         
+        <div className={styles.presentation}>
+          <div className={styles.textPresentation}>
+            <h2 className='text-4xl font-semibold md:text-2xl'>Servicio de Reparación de dispositivos tecnológicos.</h2>
+            <p>Reparación de Celulares, PC, Notebooks y Tablet. Gestión de Software y mantenimiento preventivo. Servicio personalizado, eficiente y de calidad.</p>
+          </div>
+          <Image src='https://i.ibb.co/6X4Tdgg/Reparaciones-de-calidad-3.png' width="500" height="500" className={styles.imgPresentation} alt='usuario con celular roto' />
+        </div>
+
         <div className={styles.bannerDivPresu} >
           <div className={styles.presu} >
             <h2 className={styles.title}>¿Tenes que reparar un dispositivo?</h2>
@@ -20,40 +31,7 @@ export default function HomePage () {
           <Image src='https://i.ibb.co/kqH6Cr8/fondo-Phone.png' width="500" height="500" className={styles.bannerFlyer} alt='Flyer de reparaciones'/>
         </div>
   
-        <div className={styles.bannerDiv}>
-          <h3 className={styles.h3}>Reparación de Computadoras</h3>
-          <Image src='https://i.ibb.co/qkF3n08/RepPC.png' width='500' height='500' className='w-full h-full' alt='banner de computadoras'/>
-        </div>
-        
-        <div className={styles.soluciones}>
-          <p>Reparar tu dispositivo nunca fue más facíl</p>
-          <h3>Tenemos soluciones para todos</h3>
-          <p>Sea cual sea tu problema te podemos ayudar</p>
-          <Link href='https://show.forms.app/gianmarchetti/untitled-form?draftId=a8a56511' className='mt-4 mb-8'>
-            <button className={styles.btnPresu}>Reparar mi dispositivo</button>
-          </Link>
-          <div className='mt-8 flex flex-col justify-center items-center'>
-            <Image src='https://i.ibb.co/BLj4p1L/cel.png' className={styles.cel} width='300' height='200' alt='celular'/>
-          </div>
-        </div>
-
-          <div className={styles.bannerDiv2} >
-            <Image src='https://i.ibb.co/QYFVZfB/fondo-Equipo.png' width='800' height='800' className={styles.banner} alt='banner del equipo tecnoFm'/>
-            <div className={styles.divEM}>
-                  <Link href='./about'>
-                    <Image src='https://i.ibb.co/hRKLw8q/fondo-EMTop.png' width='800' height='800' className={styles.bannerEM} alt='banner del equipo tecnoFm'/>
-                    <Image src='https://i.ibb.co/B6qBCdJ/fondo-EMBot.png' width='800' height='800' className={styles.bannerEM} alt='banner del equipo tecnoFm'/>
-                  </Link>
-            </div>
-            <div className={styles.divEquipo}>
-              <Link href='./about'>
-                <h3>Conoce a Nuestro Equipo</h3>
-              </Link>
-              <Link href='./about' className={styles.linkE}>
-                <Image src='https://i.ibb.co/61CXxPM/team.jpg' width='800' height='800' className={styles.bannerE} alt='banner del equipo tecnoFm'/>
-              </Link>
-            </div>
-          </div>
+        <RepairServices />
       
         <div className={styles.valoraciones} >
           <p className={styles.valP}>La opinión de nuestros clientes nos importa</p>
